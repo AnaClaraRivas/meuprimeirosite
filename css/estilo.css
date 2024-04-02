@@ -1,6 +1,30 @@
 body{
-    background-color: rgb(163, 163, 255);
-    color:rgb(58, 41, 134);
+    background-color: rgb(223, 255, 255);
+    color:rgb(0, 0, 0);
     width: 40%;
     font-family:"Lucida Sans";
+}
+
+header{
+    background-color: rgb(150, 121, 255);
+}
+
+.logo{
+    background-color: rgb(250, 98, 162);
+}
+
+nav{ 
+    background-color: rgb(101, 129, 255);
+}
+
+main{
+    background-color: rgb(243, 102, 9);
+}
+
+section{
+    background-color: rgb(243, 102, 9);
+}
+
+footer{
+    background-color: rgb(199, 0, 109);
 }
