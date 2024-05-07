@@ -11,6 +11,26 @@ img {
     margin-right: auto;
     display: block;}
 
+
+
+.col-3 {
+    width: 25%;
+}
+
+.col-3 p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.imggaleria {
+    width: 90%;
+}
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;}
+
 .video {
     margin-left: auto;
     margin-right: auto;
