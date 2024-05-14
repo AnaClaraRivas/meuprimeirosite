@@ -35,8 +35,8 @@ img {
 
 .imggaleria {
     width: 90%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -56,7 +56,7 @@ header{
 
 .logo{
     background-color: rgb(0, 47, 175);
-    width: 10%;
+    width: 5%;
 }
 
 .menu{
@@ -109,6 +109,10 @@ ul li {
     text-align: center;
 }
 
+.icone{
+    list-style-type: none;
+}
+
 .titulos {
     line-height: 3;
     text-align: center;
@@ -133,4 +137,22 @@ tr:nth-child(even) {
     background-color: rgb(182, 232, 255);
 }
 
-  
+.referencias{ 
+    text-align: center;
+}
+
+a.referencias:link {color:#0099ff;}
+a.referencias:visited {color:#2e8bc9;}
+a.referencias:hover {font-size:150%;}
+
+a.menua:link {
+    color:rgb(241, 241, 241);
+    font-size: 1.5em;
+}
+
+a.menua:visited {
+    color:rgb(120, 212, 255);
+    font-size: 1.5em;
+} 
+
+a.menua:hover {font-size: 2.0em;}
