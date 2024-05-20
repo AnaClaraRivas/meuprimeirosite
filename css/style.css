@@ -111,6 +111,7 @@ ul li {
 
 .icone{
     list-style-type: none;
+    text-align:left;
 }
 
 .titulos {
@@ -139,20 +140,32 @@ tr:nth-child(even) {
 
 .referencias{ 
     text-align: center;
+    font-size: 1.1em;
 }
 
 a.referencias:link {color:#0099ff;}
 a.referencias:visited {color:#2e8bc9;}
-a.referencias:hover {font-size:150%;}
+a.referencias:hover {
+    color: #224bbd;
+    font-size: 1.2em ;
+}
 
 a.menua:link {
-    color:rgb(241, 241, 241);
-    font-size: 1.5em;
+    color:#93d3fd;
+    font-size: 1.0em;
 }
 
 a.menua:visited {
-    color:rgb(120, 212, 255);
-    font-size: 1.5em;
-} 
+    color:#93d3fd;
+    font-size: 1.0em;
+}
 
-a.menua:hover {font-size: 2.0em;}
+a.menua:hover {
+    background:rgb(0, 28, 104);
+    color:#b6e1fd;
+    font-family: "Major Mono Display", monospace;
+    font-size: 1.1em;
+}
+
+
+  
