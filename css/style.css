@@ -39,14 +39,20 @@ img {
     margin-right: auto;
 }
 
-
-.video {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-    margin-bottom: 2%;
-    display: block;
+div.video {
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
 }
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+} 
 
 header{
     background-color: rgb(0, 47, 175);
