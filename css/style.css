@@ -20,7 +20,7 @@ img {
     text-align: center;
 }
     
-.linha {
+.linha, .row {
     display: flex;
     flex-flow: row wrap;
     margin-left: auto;
@@ -192,3 +192,21 @@ a.menua:hover {
     width: 15%;
 }
   
+
+
+@media screen and (max-width: 1100px) {
+
+   [class*="col-3"] {
+    width: 50%;
+   }
+  
+}
+
+@media screen and (max-width: 768px) {
+
+    [class*="col-3"] {
+    width: 100%;
+    }
+       
+}
+
