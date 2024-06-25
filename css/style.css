@@ -226,8 +226,9 @@ a.menua:hover {
     text-align: center;
     font-size: 8vw;
     color: aliceblue;
-    text-shadow: 2px 2px 5px rgb(0, 89, 255);;
-}
+    text-shadow: 2px 2px 5px rgb(0, 89, 255);
+  }
+
 
 .inicio2{
     position: relative;
@@ -238,7 +239,8 @@ a.menua:hover {
     margin-right: auto;
     width: 80%;
     display: block;   
-    opacity: 75%
+    opacity: 75%;
+    padding-bottom: 1%;
 }
 
 .topleft{
