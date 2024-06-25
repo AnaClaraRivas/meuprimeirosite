@@ -327,7 +327,7 @@ a.menua:hover {
 .bottomright {
     position: absolute;
     bottom: 20px;
-    right: 110px;
+    right: 150px;
     font-size: 2vw;
     color: aliceblue;
 }
