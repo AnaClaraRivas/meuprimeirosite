@@ -1,3 +1,7 @@
+
+html {
+    scroll-behavior: smooth;}
+
 body{
     background-color: rgb(0, 164, 240);
     color:rgb(3, 23, 49);
@@ -362,5 +366,10 @@ nav ul li a:hover {
     right: 14%;
     font-size: 2vw;
     color: aliceblue;
+}
+
+section {
+    scroll-margin-top: 100px;
+
 }
 
